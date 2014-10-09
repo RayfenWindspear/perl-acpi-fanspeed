@@ -3,6 +3,7 @@ perl-acpi-fanspeed
 
 Control your ACPI system fan curve in unix environments by writing to your Embedded Controller registers.
 
+USE THIS AT YOUR OWN RISK! I TAKE NO RESPONSIBILIY FOR USE OR MISUSE OF THE FILES IN THIS PROJECT
 
 This is a script I found online here: http://aceracpi.googlecode.com/svn/trunk/acer_ec/acer_ec.pl
 
