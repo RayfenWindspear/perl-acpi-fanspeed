@@ -23,7 +23,8 @@ That aside, I will now do my best to document what the portions I am using do, a
 To start off, really the only commands that are of absolute importance are "regs" and "writetemp", which are invoked like so:
 
 <code>sudo ./acer_ec.pl regs</code>
-<code>sudo ./acer_ec.pl writetemps <reg> <val></code>
+
+<code>sudo ./acer_ec.pl writetemps [reg] [val]</code>
 
 Most of the other commands are merely supplemental to these. regs will show you the contents of the EC registers and writetemps will allow you to write to a specific register (decimal values only). There is also a writetempshex command, used the same way, that will allow you to use hex values instead of decimal.
 
@@ -35,6 +36,6 @@ This was built with my specific laptop in mind, as well as the fact that the out
 
 
 Next up is the setprofile command:
-<code>sudo ./acer_ec.pl setprofile <profile></code>
+<code>sudo ./acer_ec.pl setprofile [profile]</code>
 
 This again is specific to my own laptop and was coded to the .rw output files of the xml macro. Note that these are RW Everything command files, so if you already have some you use in Windows, then they should work here too. All this function does is parse the .rw file specified and apply each command one by one. It also gives you a before and after printout using the same print_myregs2 function above. This means they may not match up correctly if you have not modified the myregs functionality.
