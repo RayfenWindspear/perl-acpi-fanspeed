@@ -9,7 +9,7 @@ This is a script I found online here: http://aceracpi.googlecode.com/svn/trunk/a
 
 The original purpose is defined here: https://code.google.com/p/aceracpi/wiki/EmbeddedController
 
-The RW Everything scripts I found for my MSI GT60 2OC: (will find link)
+The RW Everything scripts I found for my MSI GT60 2OC: http://forum.notebookreview.com/msi/473766-official-msi-gx640-owner-s-thread-338.html#post7729389
 
 
 My reason for modifying the script was to allow me to change my fan speed curve easily and efficiently. On Windows, I found the need to use the program RW Everything in order to accomplish this task. On unix environments I couldn't find any useful responses for how to do this, so I came up with this solution (again, based off the script I borrowed).
